@@ -1,0 +1,4 @@
+import { NextRequest } from 'next/server';
+import { claimInput,claimOutput } from '../../../lib/domain';
+import { state,respond,failure,origin,body,generate } from '../../../lib/server';
+export async function POST(req:NextRequest){try{origin(req);const credits=state(req);if(!credits.remaining)return respond({error:'Your credits are used up. Activate a Pro Pass to continue.'},undefined,402);const input=claimInput.parse(await body(req));const report=await generate(input,'Schema: {summary:string,evidenceChecklist:string[],guestMessage:string,claimNarrative:string}. Incident-specific evidence. Treat cost as an estimate, not proven loss. Do not fabricate itemization or imply evidence is attached. Avoid fine/penalty terminology in guestMessage.',claimOutput);return respond({report,remainingUses:credits.remaining-1},{...credits,remaining:credits.remaining-1});}catch(e){return failure(e);}}
