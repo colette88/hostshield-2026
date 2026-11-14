@@ -19,7 +19,7 @@ export function LandingIntro({ onStartAudit, onUpgrade }: { onStartAudit: () => 
     <section className="hero conversion-hero" aria-labelledby="hero-title">
       <div className="deadline-badge"><span className="live-dot" /> NOVEMBER 20, 2026 POLICY REVIEW <span aria-hidden="true">•</span> 2026 AIRCOVER PREPARATION</div>
       <h1 id="hero-title">Audit Your Airbnb Rules Before Nov 20.<br /><span>Build Better-Documented AirCover Claims.</span></h1>
-      <p className="hero-description">Paste your current House Rules or checkout message. Spot potentially banned guest chores, punitive fines, and off-platform ID requests—and get copy-paste rewrites plus a cleaner turnover checklist ready for your review.</p>
+      <p className="hero-description">Paste your current House Rules or checkout message. Spot potentially banned guest chores, punitive fines, and off-platform ID requests - and get copy-paste rewrites plus a cleaner turnover checklist ready for your review.</p>
       <div className="hero-actions">
         <button type="button" className="primary hero-start" onClick={onStartAudit}>Start Free Audit (2 Free Credits)<ArrowRight size={18} /></button>
         <button type="button" className="outline hero-example" aria-expanded={exampleOpen} aria-controls="landing-example" onClick={showExample}>See Sample Before &amp; After<ArrowRight size={16} /></button>
@@ -43,7 +43,7 @@ export function LandingIntro({ onStartAudit, onUpgrade }: { onStartAudit: () => 
     </section>
 
     <section className="landing-values" aria-label="What you get and how to use it">
-      <article><span className="value-step"><ShieldCheck size={20} /> 01 · AUDIT</span><h2>Reduce Nov 20 Rule Risks</h2><p>Flags potentially banned checkout chores—stripping beds, laundry, dishes, and trash haul—alongside punitive flat fines ($250 smoking fees) and post-booking welcome-book rules that may put a listing at risk.</p><strong>Paste your rules → Get specific fixes</strong></article>
+      <article><span className="value-step"><ShieldCheck size={20} /> 01 · AUDIT</span><h2>Reduce Nov 20 Rule Risks</h2><p>Flags potentially banned checkout chores - stripping beds, laundry, dishes, and trash haul - alongside punitive flat fines ($250 smoking fees) and post-booking welcome-book rules that may put a listing at risk.</p><strong>Paste your rules → Get specific fixes</strong></article>
       <article><span className="value-step"><ClipboardCheck size={20} /> 02 · REPLACE &amp; DELEGATE</span><h2>Keep Cleaner Turnovers Smooth</h2><p>Splits flagged guest chores into a ready-to-send Housekeeper Turnover Checklist while giving you a warm, guest-friendly checkout message. Cleaning stays covered without making guests do the heavy lifting.</p><strong>Copy your rewrites → Send the checklist</strong></article>
       <article><span className="value-step"><FileText size={20} /> 03 · DOCUMENT &amp; FILE</span><h2>Prepare Stronger AirCover Claims</h2><p>Calculates 14-day guest-request and 30-day claim planning dates, recommends unedited camera originals, and drafts neutral Resolution Center messages. Confirm applicable deadlines and evidence requirements.</p><strong>Describe the incident → Review your filing plan</strong></article>
     </section>
