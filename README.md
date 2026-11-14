@@ -12,6 +12,7 @@ cp .env.example .env.local
 # Supply real service credentials in .env.local
 npm run dev
 npm test
+npm run lint
 npm run typecheck
 npm run build
 npm start
