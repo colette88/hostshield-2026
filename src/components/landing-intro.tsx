@@ -27,7 +27,7 @@ export function LandingIntro({ onStartAudit, onUpgrade }: { onStartAudit: () => 
       <div className="conversion-trust" aria-label="Pricing and product details">
         <span><Check size={15} /> 2 Free Full Reports (No Card Required)</span>
         <span><Check size={15} /> Reviews the supplied Nov 20, 2026 framework</span>
-        <button type="button" onClick={onUpgrade}><Check size={15} /> Pro Pass: $19 One-Time for 100 Credits<ArrowRight size={13} /></button>
+        <button type="button" onClick={onUpgrade}><Check size={15} /> Pro Pass: $9.99 One-Time for 100 Credits<ArrowRight size={13} /></button>
       </div>
       <p className="hero-fine-print">Independent tool. Verify the supplied policy framework against current Airbnb terms. Timing and outcomes vary; no guaranteed compliance or reimbursement. Pro credits have no scheduled expiry; browser storage limits apply.</p>
     </section>
